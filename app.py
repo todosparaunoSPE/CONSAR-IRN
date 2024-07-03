@@ -10,7 +10,7 @@ import pandas as pd
 import plotly.express as px
 
 # Título principal de la aplicación
-st.title("Análisis del Indicador de Rendimiento Neto (IRN) del Fondo de Pensiones")
+st.title("CONSAR: Indicador de Rendimiento Neto (IRN)")
 
 # Agregar sección de Ayuda en el sidebar
 st.sidebar.title("Ayuda")

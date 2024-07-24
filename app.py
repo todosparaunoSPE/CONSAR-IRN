@@ -84,8 +84,13 @@ display_dataframe(df2, ['AFORE', 'SIEFORE', 'Fecha'], "IRN_promedio")
 display_dataframe(df3, ['AFORE', 'Fecha'], "IRN_ponderado")
 
 # Aviso de derechos de autor
-st.sidebar.markdown("""
-    ---
-    © 2024. Todos los derechos reservados.
-    Creado por jahoperi.
-""")
+#st.sidebar.markdown("""
+#    ---
+#    © 2024. Todos los derechos reservados.
+#    Creado por jahoperi.
+#""")
+
+# Pie de página en la barra lateral
+st.sidebar.write("© 2024 Todos los derechos reservados")
+st.sidebar.write("© 2024 Creado por: Javier Horacio Pérez Ricárdez")
+st.sidebar.write("PensionISSSTE: Analista UEAP B")
